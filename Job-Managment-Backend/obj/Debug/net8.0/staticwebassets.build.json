@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "SPByaysdgMkUkDSAr6vUQewwGI80tt5FMsdIe+cugps=",
+  "Source": "Job-Managment-Backend",
+  "BasePath": "_content/Job-Managment-Backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

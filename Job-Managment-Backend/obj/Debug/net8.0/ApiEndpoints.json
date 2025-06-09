@@ -1,0 +1,144 @@
+[
+  {
+    "ContainingType": "Job_Managment_Backend.Controllers.JobsController",
+    "Method": "GetJobs",
+    "RelativePath": "api/jobs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Managment_Backend.Controllers.JobsController",
+    "Method": "CreateJob",
+    "RelativePath": "api/jobs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Job_Managment_Backend.DTOs.JobRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Managment_Backend.Controllers.JobsController",
+    "Method": "GetJob",
+    "RelativePath": "api/jobs/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Managment_Backend.Controllers.JobsController",
+    "Method": "DeleteJob",
+    "RelativePath": "api/jobs/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Managment_Backend.Controllers.JobsController",
+    "Method": "RetryJob",
+    "RelativePath": "api/jobs/retry/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Managment_Backend.Controllers.JobsController",
+    "Method": "StopJob",
+    "RelativePath": "api/jobs/stop/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Managment_Backend.Controllers.WorkersController",
+    "Method": "GetWorkers",
+    "RelativePath": "api/workers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Managment_Backend.Controllers.WorkersController",
+    "Method": "RegisterWorker",
+    "RelativePath": "api/workers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Job_Managment_Backend.DTOs.WorkerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Managment_Backend.Controllers.WorkersController",
+    "Method": "GetWorker",
+    "RelativePath": "api/workers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Job_Managment_Backend.Controllers.WorkersController",
+    "Method": "ProcessQueue",
+    "RelativePath": "api/workers/process-queue",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
