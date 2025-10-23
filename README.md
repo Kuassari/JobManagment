@@ -2,7 +2,7 @@
 
 A full-stack real-time job management application with priority-based queuing, worker node orchestration, and live monitoring.
 
-> 🎯 **Take-Home Assignment** | Company interview process (2024)  
+> 🎯 **Take-Home Assignment** | Company interview process (2025)  
 > **Time Given:** 3 days | React (TypeScript) + .NET Core 8 (C#)
 
 ## 📋 Assignment Background
